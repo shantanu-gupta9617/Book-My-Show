@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSlider from "react-slick";
 
-import { NextArrow,PrevArrow } from "../Arrows.component";
+import { NextArrow,PrevArrow } from "./Arrows.component";
 
 
 // Import css files
@@ -25,7 +25,7 @@ const HeroCarousal = () => {
 
   const settings = {
     arrows: true,
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
